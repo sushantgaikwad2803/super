@@ -824,6 +824,9 @@ footer {
     .treatment .sub1{
         width: 96%;
     }
+    .treatment .sub-content ul{
+        padding: 0   10rem;
+    }
     #about{
         border-radius: 90px 0 80px 0;
         margin: 1.4rem;
@@ -926,7 +929,7 @@ footer {
         font-size: 1.5rem;
     }
     #service h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .treatment p{
         font-size: 1.7rem;
@@ -942,7 +945,7 @@ footer {
         margin: 1.4rem;
     }
     #about h1{
-        font-size: 3.7rem;
+        font-size: 3rem;
     }
     #about h1::after{
         width: 15rem;
@@ -952,7 +955,7 @@ footer {
         margin: 1.4rem;
     }
     #gallery h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     #gallery h1::after{
         width: 10rem;
@@ -962,7 +965,7 @@ footer {
         margin: 1.4rem;
     }
     #contact h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     #contact h1::after{
         width: 16rem;
@@ -1059,9 +1062,6 @@ footer {
     #about{
         border-radius: 100px 0 90px 0;
         margin: 2rem;
-    }
-    #about h1{
-        font-size: 3;
     }
     #about .about-us {
         display: inline;
@@ -1242,4 +1242,11 @@ footer {
     .footer-copy p{
         font-size: 1.9rem;
     } 
+}
+
+@media (max-width:295px) {
+    .treatment .sub1{
+        width: 54%;
+    }
+    
 }
