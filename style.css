@@ -226,7 +226,7 @@ body{
     display: block;
     margin: auto;
 }
-.treatment h2{
+.treatment p{
     font-size: 2.2rem;
     color: var(--first-bg-color);
     font-family: 400;
@@ -795,15 +795,15 @@ footer {
         left: 3%;
     }
     #home h1{
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
     #home h2{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     #home .social-icons a{
         font-size: 1.4rem;
         width: 3.2rem;
-        margin: 2rem 0.7rem 2rem 0.7rem;
+        margin: 1.3rem 0.3rem 1.3rem 0.3rem;
         height: 3.2rem;
     }
     #home .btn{
@@ -833,9 +833,6 @@ footer {
     }
     #about h1::after{
         width: 15rem;
-    }
-    #about .about-img{
-        height: 700px;
     }
     #gallery{
         border-radius: 90px 0 80px 0;
@@ -912,13 +909,13 @@ footer {
         left: 3%;
     }
     #home h1{
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
     #home h2{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     #home .social-icons a{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         width: 3.2rem;
         height: 3.2rem;
     }
@@ -1028,7 +1025,7 @@ footer {
     top: 26%;
     left: 3%;
     }
-    #home h1{
+    /* #home h1{
         font-size: 2.6rem;
     }
     #home h2{
@@ -1039,7 +1036,7 @@ footer {
         width: 3.2rem;
         height: 3.2rem;
         margin: 1.2rem 0.9rem;
-    }
+    } */
     #home .btn{
         font-size: 0.9rem;
     }
@@ -1136,10 +1133,10 @@ footer {
         font-size: 3.8rem;
     }
     .footer-navbar ul li a{
-        font-size: 2.1rem;
+        font-size: 1.4rem;
     }
     .footer-copy p{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 }
 
@@ -1185,7 +1182,7 @@ footer {
         font-size: 3rem;
     }
     .footer-navbar ul li a{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     .footer-copy p{
         font-size: 1.9rem;
@@ -1247,7 +1244,7 @@ footer {
         font-size: 3rem;
     }
     .footer-navbar ul li a{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     .footer-copy p{
         font-size: 1.9rem;
