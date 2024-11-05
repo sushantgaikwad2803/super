@@ -830,6 +830,9 @@ footer {
     .treatment .sub-content h3{
         padding: 0   2.5rem;
     }
+    .treatment .slogn{
+        font-size: 2.2rem;
+    }
     #about{
         border-radius: 90px 0 80px 0;
         margin: 1.4rem;
@@ -1060,7 +1063,7 @@ footer {
         font-size: 1.9rem;
     }
     .treatment .slogn{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     #about{
         border-radius: 100px 0 90px 0;
