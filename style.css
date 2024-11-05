@@ -1025,18 +1025,6 @@ footer {
     top: 26%;
     left: 3%;
     }
-    /* #home h1{
-        font-size: 2.6rem;
-    }
-    #home h2{
-        font-size: 1.6rem;
-    }
-    #home .social-icons a{
-        font-size: 1.4rem;
-        width: 3.2rem;
-        height: 3.2rem;
-        margin: 1.2rem 0.9rem;
-    } */
     #home .btn{
         font-size: 0.9rem;
     }
@@ -1178,6 +1166,11 @@ footer {
         border-radius: 90px 0 80px 0;   
         margin: 2rem;
     }
+    .contact-form input,
+    .contact-form textarea {
+        width: 280px;
+        height: 40px;
+    } 
     .footer-icon a i{
         font-size: 3rem;
     }
