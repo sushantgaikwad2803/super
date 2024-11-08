@@ -185,8 +185,8 @@ body{
 #home .social-icons a:hover{
     color: var(--text-color);
     transform: scale(1)translateY(-4px);
-    box-shadow: 0 0 20px var(--black-color);
-    background-color: var(--main-color);
+    box-shadow: 0 0 20px var(--light-gre);
+    background-color: var(--light-gre);
 }
 #home .btn{
     display: inline-block;
@@ -221,7 +221,7 @@ body{
 #service h1::after{
     content: "";
     height: 0.3rem;
-    width: 19rem;
+    width: 20rem;
     background-color: var(--first-bg-color);
     display: block;
     margin: auto;
@@ -372,7 +372,7 @@ body{
 #gallery h1::after{
     content: "";
     height: 0.3rem;
-    width: 16rem;
+    width: 14rem;
     background-color: var(--first-bg-color);
     display: block;
     margin: auto;
