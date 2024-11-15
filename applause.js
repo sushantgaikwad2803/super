@@ -1,5 +1,5 @@
 
-
+//open navbar
 let menu_icon = document.querySelector(".menu-icon i")
 let nav_list = document.querySelector(".navlist")
 
@@ -16,7 +16,12 @@ menu_icon.addEventListener("click" , () => {
 })
 
 // Remove Navbar
+let htmlbody = document.querySelector(".short-body");
+htmlbody.addEventListener("click" , () => {
+     nav_list.style.maxHeight = "0";
+});
 
+//hover effect
 let section = document.querySelectorAll('section');
 let navlinks = document.querySelectorAll('header nav a');
 
@@ -31,22 +36,8 @@ window.onscroll = () => {
             navlinks.forEach(links => {
                 links.classList.remove("active");
                 document.querySelector('header nav a [href*=' + id + ']').classList.add("active");
+                nav_list.style.maxHeight = "0";
             });
         };
     });
 };
-
-// const activepage = window.location.pathname;
-// const navlink = document.querySelectorAll('nav a').
-// forEach(link => {
-//     if(link.href.includes('${activepage}')){
-//         link.classList.add('active');
-//     }
-// })
-
-document.onclick = function(e){
-    if(!menu_icon.contains(e.target) && !nav_list.contains(e.target) ){
-        menu_icon.classList.remove("active");
-        nav_list.classList.remove("active");
-    }
-}
