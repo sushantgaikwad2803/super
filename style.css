@@ -1115,6 +1115,11 @@ footer {
         font-size: 1.8rem;
         margin: 2rem 0 2rem 3rem;
     }
+    #contact .contact-form {
+        position: relative;
+        z-index: 10;
+        left: -5px;
+    }
     .map{
         height: 440px;
     }
