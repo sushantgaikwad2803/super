@@ -1248,6 +1248,11 @@ footer {
         display: inline;
         padding: 0.1rem;
     }
+    #contact .contact-form {
+        position: relative;
+        z-index: 10;
+        left: -10px;
+    }
     .contact-form input,
     .contact-form textarea {
         width: 220px;
@@ -1303,6 +1308,11 @@ footer {
         padding: 0.2rem 1% 0.2rem;
         margin: 0.2rem;
     }    
+    #contact .contact-form {
+        position: relative;
+        z-index: 10;
+        left: -20px;
+    }
 }
 
 @media (max-width:260px) {
@@ -1314,8 +1324,7 @@ footer {
         width: 200px;
     }
     #maps{
-        padding: 0.1rem 1% 0.1rem;
-        margin: 0.1rem;
+        padding: 0.1rem 0.1% 0.1rem;
     }
     #contact .contact-form {
         position: relative;
