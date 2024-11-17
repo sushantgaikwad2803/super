@@ -755,6 +755,38 @@ footer {
     }
 }
 
+@media (max-width:600px) {
+    .header{
+        height: 10rem;
+        width: 100%;
+        z-index: 100;
+    }
+    .navbar ul{
+        position: absolute;
+        top: 40px;
+        width: 200px;
+        right: 38px;
+        flex-direction: column;
+        background-color: var(--main-color);
+        font-size: 2rem;
+        border-radius: 0 0 20px 20px;
+        overflow: hidden;
+    }
+    .navbar ul{
+        font-size: 1.6rem;
+        display: block;
+    }
+    .navbar ul li {
+        padding: 15px 0;
+    }
+    .logo img{
+        width: 13rem;
+    }
+   #menu-icon{
+    display: block;
+   }  
+}
+
 @media (max-width:550px) {
     .header{
         height: 10rem;
@@ -1169,7 +1201,7 @@ footer {
 @media (max-width: 390px) {
     #home {
         position: absolute;
-        top: 36%;
+        top: 30%;
         left: 3%;
     }
     .treatment .sub1{
@@ -1186,7 +1218,7 @@ footer {
         margin: 2rem;
     }
     .about-img img{
-        height: 360px;
+        height: 340px;
         padding: 2.5rem;
     }
     .about-info p{
@@ -1220,9 +1252,15 @@ footer {
     } 
 }
 
+@media (max-width: 376px) {
+    #home{
+        top: 37%;
+    }
+}
+
 @media (max-width: 360px) {
     #home{
-        top: 32%;
+        top: 33%;
     }
     .treatment .sub-img img{
         width: 65%;
