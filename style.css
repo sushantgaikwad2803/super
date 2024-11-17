@@ -1120,7 +1120,6 @@ footer {
     }
     .map iframe{
         height: 400px;
-        /* width: 300px; */
         padding: 1rem 0 1rem 0 ;
     }
     .footer-icon a i{
@@ -1280,7 +1279,6 @@ footer {
         padding: 1rem;
     }
     .contact-container{
-        display: inline;
         padding: 0.1rem;
     }
     .contact-form input,
@@ -1290,5 +1288,38 @@ footer {
     #maps{
         padding: 0.2rem 1% 0.2rem;
         margin: 0.2rem;
+    }
+}
+
+@media (max-width:288px) {
+    .contact-container{
+        padding: 0 0 0 -10rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 210px;
+    }
+    #maps{
+        padding: 0.2rem 1% 0.2rem;
+        margin: 0.2rem;
+    }    
+}
+
+@media (max-width:260px) {
+    .contact-container{
+        padding: 0 0 0 -1000rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 200px;
+    }
+    #maps{
+        padding: 0.1rem 1% 0.1rem;
+        margin: 0.1rem;
+    }
+    #contact .contact-form {
+        position: relative;
+        z-index: 10;
+        left: -20px;
     }
 }
