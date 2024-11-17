@@ -1038,7 +1038,7 @@ footer {
     }
     #service h1{
         margin-top: 2rem;
-        font-size: 3.8rem;
+        font-size: 3rem;
     }
     .treatment h2{
         font-size: 2rem;
@@ -1098,6 +1098,11 @@ footer {
         width: 300px;
         height: 40px;
     } 
+    #contact .contact-form {
+        position: relative;
+        z-index: 10;
+        left: -8px;
+    }
     .contact-container{
         display: inline;
     }
@@ -1114,11 +1119,6 @@ footer {
     .contact-right .phone p{
         font-size: 1.8rem;
         margin: 2rem 0 2rem 3rem;
-    }
-    #contact .contact-form {
-        position: relative;
-        z-index: 10;
-        left: -5px;
     }
     .map{
         height: 440px;
