@@ -1072,11 +1072,12 @@ footer {
         display: inline;
     }
     .about-img img{
-        height: 400px;
+        height: 380px;
         padding: 2.5rem;
     }
     .about-info p{
         font-size: 1.5rem;
+        padding: 1.5rem;
     }
     .about-slogan{
         font-size: 2.1rem;
@@ -1101,7 +1102,7 @@ footer {
     #contact .contact-form {
         position: relative;
         z-index: 10;
-        left: -8px;
+        left: -10px;
     }
     .contact-container{
         display: inline;
@@ -1141,6 +1142,27 @@ footer {
 @media (max-width: 415px) {
     #home{
         top: 27%;
+    }
+    #service h1::after{
+        width: 15rem;
+    }
+    #about h1{
+        font-size: 3rem;
+    }
+    #about h1::after{
+        width: 12rem;
+    }
+    #gallery h1{
+        font-size: 3rem;
+    }
+    #gallery h1::after{
+        width: 10rem;
+    }
+    #contact h1{
+        font-size: 3rem;
+    }
+    #contact h1::after{
+        width: 13rem;
     }
 }
 
