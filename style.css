@@ -303,7 +303,6 @@ body{
 /* About us */
 #about {
     background-color: var(--main-color);
-    margin-top: 2.9rem;
     border-radius: 200px 0 60px 0;
     margin: 4rem;
     padding: 3.8rem;
@@ -406,12 +405,10 @@ img{
 
 /* Contact us  */
 #contact {
-    font-size: 2rem;
     background-color: var(--main-color);
     border-radius: 200px 0 60px 0;
     margin: 3rem;
     padding: 3.8rem;
-    align-items: center;
 }
 #contact h1{
     font-size: 5rem;
