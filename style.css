@@ -306,6 +306,7 @@ body{
     margin-top: 2.9rem;
     border-radius: 200px 0 60px 0;
     margin: 4rem;
+    padding: 3.8rem;
 }
 #about h1{
     font-size: 5rem;
@@ -367,7 +368,7 @@ body{
     color: var(--black-color);
     text-align: center;
     font-weight: 600;
-    margin: 5rem  0 2rem  0;
+    margin: 5rem 0  2rem  0;
 }
 #gallery h1::after{
     content: "";
@@ -409,6 +410,7 @@ img{
     background-color: var(--main-color);
     border-radius: 200px 0 60px 0;
     margin: 3rem;
+    padding: 3.8rem;
     align-items: center;
 }
 #contact h1{
@@ -838,10 +840,10 @@ footer {
         margin: 1.4rem;
     }
     #about h1{
-        font-size: 3.7rem;
+        font-size: 3.6rem;
     }
     #about h1::after{
-        width: 15rem;
+        width: 10rem;
     }
     #gallery{
         border-radius: 90px 0 80px 0;
@@ -951,7 +953,7 @@ footer {
         margin: 1.4rem;
     }
     #about h1{
-        font-size: 3rem;
+        font-size: 3.8rem;
     }
     #about h1::after{
         width: 15rem;
@@ -961,20 +963,20 @@ footer {
         margin: 1.4rem;
     }
     #gallery h1{
-        font-size: 3rem;
+        font-size: 3.8rem;
     }
     #gallery h1::after{
-        width: 10rem;
+        width: 12rem;
     }
     #contact{
         border-radius: 90px 0 80px 0;
         margin: 1.4rem;
     }
     #contact h1{
-        font-size: 3rem;
+        font-size: 3.8rem;
     }
     #contact h1::after{
-        width: 16rem;
+        width: 17rem;
     }
     .contact-form input,
     .contact-form textarea {
@@ -1060,7 +1062,7 @@ footer {
         width: 78%;
     }
     .row .sub1 .button .btn{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     .treatment .slogn{
         font-size: 2rem;
