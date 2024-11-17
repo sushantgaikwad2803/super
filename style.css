@@ -1076,7 +1076,7 @@ footer {
         padding: 2.5rem;
     }
     .about-info p{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .about-slogan{
         font-size: 2.1rem;
@@ -1162,6 +1162,9 @@ footer {
         height: 360px;
         padding: 2.5rem;
     }
+    .about-info p{
+        padding: 1rem;
+    }
     #gallery{
         border-radius: 90px 0 80px 0;
         margin: 2rem;
@@ -1170,6 +1173,10 @@ footer {
         border-radius: 90px 0 80px 0;   
         margin: 2rem;
     }
+    #maps{
+        padding: 0.2rem 1% 0.2rem;
+        margin: 0.2rem;
+    }  
     .contact-form input,
     .contact-form textarea {
         width: 250px;
@@ -1195,6 +1202,9 @@ footer {
     }
     .treatment .sub1{
         width: 65%;
+    }
+    .about-info p{
+        padding: 1rem;
     }
 }
 
