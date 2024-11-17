@@ -1272,5 +1272,23 @@ footer {
     .treatment .sub1{
         width: 54%;
     }
-    
+    .about-img img{
+        height: 300px;
+        padding: 1rem;
+    }
+    .about-info p{
+        padding: 1rem;
+    }
+    .contact-container{
+        display: inline;
+        padding: 0.1rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 210px;
+    }
+    #maps{
+        padding: 0.2rem 1% 0.2rem;
+        margin: 0.2rem;
+    }
 }
